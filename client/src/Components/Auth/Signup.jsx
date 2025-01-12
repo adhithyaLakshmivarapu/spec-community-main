@@ -197,7 +197,7 @@ export default function Signup() {
       <div className='flex flex-col justify-center items-center px-4 py-5 rounded-[30px] max-w-[300px] sm:max-w-[400px] max-h-[800px] bg-white shadow-lg'>
         <form onSubmit={handleSubmit}>
           <h2 className='text-3xl font-semibold mb-1'>Sign Up</h2>
-          <p className='text-base font-medium mb-4 text-[#727986]'>Enter your details to create your AskItOut Account:</p>
+          <p className='text-base font-medium mb-4 text-[#727986]'>Enter your details to create your SPEC COMMUNITY Account:</p>
 
           <div className='flex justify-between gap-1'>
             <div className='flex flex-col mb-4 max-w-[132px] sm:max-w-[200px]'>
@@ -279,7 +279,7 @@ export default function Signup() {
                 <path d="M1.05261 5.05263C1.05261 5.05263 2.39998 5.82107 3.07367 6.94736C3.07367 6.94736 5.09472 2.52631 7.78945 1.05263" stroke="#2A353D" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
               </svg>
             </label>
-            <p className='text-xs ml-1'>I agree with AskItOut's <Link to="/" className='text-[#0090FC] visited:text-[#0090FC]'>User Agreement</Link> and <Link to="/" className='text-[#0090FC] visited:text-[#0090FC]'>Privacy Policy</Link>.</p>
+            <p className='text-xs ml-1'>I agree with SPEC COMMUNITY's <Link to="/" className='text-[#0090FC] visited:text-[#0090FC]'>User Agreement</Link> and <Link to="/" className='text-[#0090FC] visited:text-[#0090FC]'>Privacy Policy</Link>.</p>
           </div>
 
           <div className='flex items-center'>
@@ -293,7 +293,7 @@ export default function Signup() {
           </div>
 
           <button type='submit' className='w-full py-1 bg-[#339AF0] my-4 rounded-full'><span className='text-base font-semibold text-white'>Sign Up</span></button>
-          <p className='text-xs text-center my-4'>Already have a AskItOut account? <Link to="/login" className='text-[#0090FC] visited:text-[#0090FC]'>Log In</Link></p>
+          <p className='text-xs text-center my-4'>Already have a SPEC COMMUNITY account? <Link to="/login" className='text-[#0090FC] visited:text-[#0090FC]'>Log In</Link></p>
         </form>
       </div>
     </div>

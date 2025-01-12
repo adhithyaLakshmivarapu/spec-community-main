@@ -93,7 +93,7 @@ export default function UserHome() {
             <TopMenu currentPage='home' fromPage='home' />
             :
             <div className='flex justify-between items-center'>
-              <NavLink to={'/'}><div className='text-2xl font-semibold'>AskItOut</div></NavLink>
+              <NavLink to={'/'}><div className='text-2xl font-semibold'>SPEC COMMUNITY</div></NavLink>
               <TopMenu currentPage='home' fromPage='home' />
             </div>
         }
@@ -110,7 +110,7 @@ export default function UserHome() {
 
               <div className='text-xs text-center text-[#6A737D] p-2'>
                 <div><a href="/" target='_blank'>T&C</a> &nbsp;•&nbsp; <a href="/" target='_blank'>Code of Conduct</a> &nbsp;•&nbsp; <a href="/" target='_blank'>Privacy</a></div>
-                <div>&#169;&nbsp;{getDate(Date.now()).year} AskItOut</div>
+                <div>&#169;&nbsp;{getDate(Date.now()).year} SPEC COMMUNITY</div>
               </div>
             </div>
           </aside>
