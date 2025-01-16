@@ -2,7 +2,8 @@ import mongoose from "mongoose";
 
 const connectDB = async () => {
     try {
-        const uri = process.env.MONGO_URI; // Ensure this is defined
+        // Make sure the connection string is wrapped in quotes as a string
+        const uri = "mongodb+srv://karthikreddy81799:Karthik%4025@cluster0.6xawr.mongodb.net/comminityapp?retryWrites=true&w=majority&appName=Cluster0"; 
         if (!uri) {
             throw new Error("MONGO_URI environment variable is not defined");
         }
